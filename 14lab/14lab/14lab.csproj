@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_14lab</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <HintPath>C:\Users\ADMIN\Downloads\system.runtime.serialization.formatters.soap.dll\system.runtime.serialization.formatters.soap.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

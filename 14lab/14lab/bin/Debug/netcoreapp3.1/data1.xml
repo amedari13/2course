@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfComputer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Computer>
+    <productionYear>1999</productionYear>
+    <name>Super cool mega computer!</name>
+  </Computer>
+  <Computer>
+    <productionYear>1999</productionYear>
+    <name>Super cool mega computer!</name>
+  </Computer>
+  <Computer>
+    <productionYear>1999</productionYear>
+    <name>Super cool mega computer!</name>
+  </Computer>
+</ArrayOfComputer>

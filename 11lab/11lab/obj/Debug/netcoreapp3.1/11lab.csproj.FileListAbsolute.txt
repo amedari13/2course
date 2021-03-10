@@ -1,0 +1,13 @@
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.exe
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.deps.json
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.runtimeconfig.json
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.runtimeconfig.dev.json
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.dll
+D:\для работы ооп\11lab\11lab\bin\Debug\netcoreapp3.1\11lab.pdb
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.csprojAssemblyReference.cache
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.AssemblyInfoInputs.cache
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.AssemblyInfo.cs
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.csproj.CoreCompileInputs.cache
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.dll
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.pdb
+D:\для работы ооп\11lab\11lab\obj\Debug\netcoreapp3.1\11lab.genruntimeconfig.cache

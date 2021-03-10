@@ -1,0 +1,16 @@
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.exe
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.deps.json
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.runtimeconfig.json
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.runtimeconfig.dev.json
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.dll
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\14lab.pdb
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.csprojAssemblyReference.cache
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.AssemblyInfoInputs.cache
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.AssemblyInfo.cs
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.dll
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.pdb
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.genruntimeconfig.cache
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.csproj.CopyComplete
+D:\для работы ооп\14lab\14lab\obj\Debug\netcoreapp3.1\14lab.csproj.CoreCompileInputs.cache
+D:\для работы ооп\14lab\14lab\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

@@ -1,0 +1,13 @@
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.exe
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.deps.json
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.runtimeconfig.json
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.runtimeconfig.dev.json
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.dll
+D:\для работы ооп\15lab\15lab\bin\Debug\netcoreapp3.1\15lab.pdb
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.csprojAssemblyReference.cache
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.AssemblyInfoInputs.cache
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.AssemblyInfo.cs
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.csproj.CoreCompileInputs.cache
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.dll
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.pdb
+D:\для работы ооп\15lab\15lab\obj\Debug\netcoreapp3.1\15lab.genruntimeconfig.cache

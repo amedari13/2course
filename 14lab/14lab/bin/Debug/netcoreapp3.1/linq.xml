@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<City>
+  <User Name="Daria">
+    <Password>null</Password>
+  </User>
+  <User Name="Olga">
+    <Password>1234</Password>
+  </User>
+</City>

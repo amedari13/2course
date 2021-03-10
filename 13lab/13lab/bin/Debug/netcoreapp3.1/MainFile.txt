@@ -1,0 +1,30 @@
+11:55:2:10:2020 
+Free space
+11:55:2:10:2020 
+System information
+11:55:2:10:2020 
+Disk information
+11:55:2:10:2020 
+Full path
+11:55:2:10:2020 
+Files information
+11:55:2:10:2020 
+Creation time
+11:55:2:10:2020 
+Creation time
+11:55:2:10:2020 
+Number of files
+11:55:2:10:2020 
+Number of directories
+11:55:2:10:2020 
+Number of parent directories
+11:55:2:10:2020 
+Creation ADPInspect
+11:55:2:10:2020 
+Creation ADPdirinfo.txt
+11:55:2:10:2020 
+Copying from ADPdirinfo to ADPdirinfocopy
+11:55:2:10:2020 
+Creation ADPFiles
+11:55:2:10:2020 
+Recording в ADPFile

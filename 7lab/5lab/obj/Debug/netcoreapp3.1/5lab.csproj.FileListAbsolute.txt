@@ -1,0 +1,52 @@
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.exe
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.deps.json
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.json
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.exe
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.deps.json
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.json
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\bin\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\6lab\5lab\5lab\obj\Debug\netcoreapp3.1\5lab.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.exe
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.deps.json
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.json
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.dll
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.pdb
+C:\Users\ADMIN\source\repos\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.genruntimeconfig.cache
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.exe
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.deps.json
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.json
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.runtimeconfig.dev.json
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.dll
+D:\для работы ооп\6lab\5lab\bin\Debug\netcoreapp3.1\5lab.pdb
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.csprojAssemblyReference.cache
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfoInputs.cache
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.AssemblyInfo.cs
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.csproj.CoreCompileInputs.cache
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.dll
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.pdb
+D:\для работы ооп\6lab\5lab\obj\Debug\netcoreapp3.1\5lab.genruntimeconfig.cache

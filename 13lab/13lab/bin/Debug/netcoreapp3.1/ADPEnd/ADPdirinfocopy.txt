@@ -1,0 +1,9 @@
+$RECYCLE.BIN
+Boot
+sai
+System Volume Information
+для работы ооп
+bootmgr
+BOOTSECT.BAK
+grldr
+message.txt
