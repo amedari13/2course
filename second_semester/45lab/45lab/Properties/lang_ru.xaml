@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:_45lab" xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="_underline"> Подчеркнутый</system:String>
+    <system:String x:Key="_copy"     > Копировать  </system:String>
+    <system:String x:Key="_save"     > Сохранить   </system:String>
+    <system:String x:Key="_insert"   > Вставить    </system:String>
+    <system:String x:Key="_cut"      > Вырезать    </system:String>
+    <system:String x:Key="_paste"    > Вставить    </system:String>
+    <system:String x:Key="_open"     > Открыть     </system:String>
+    <system:String x:Key="_italic"   > Курсив      </system:String>
+    <system:String x:Key="_print"    > Печать      </system:String>
+    <system:String x:Key="_bold"     > Жирный      </system:String>
+    <system:String x:Key="_create"   > Новый       </system:String>
+    <system:String x:Key="_close"    > Закрыть     </system:String>
+    <system:String x:Key="_text"     > Текст       </system:String>
+    <system:String x:Key="_undo"     > Назад       </system:String>
+    <system:String x:Key="_file"     > Файл        </system:String>
+    <system:String x:Key="_time"     > Дата        </system:String>
+</ResourceDictionary>
