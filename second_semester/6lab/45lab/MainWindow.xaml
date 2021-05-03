@@ -1,0 +1,145 @@
+﻿<Window x:Name="mainWindow" 
+        x:Class="_45lab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:control="clr-namespace:_45lab"
+        mc:Ignorable="d"
+        Title="WPF TEXT EDITOR" Height="464.49" Width="709.563" Closing="mainWindow_Closing">
+    <Window.Resources>
+
+        <Style x:Key="BlackAndWhite">
+            <Setter Property="Control.FontFamily" Value="Verdana" />
+            <Setter Property="Control.Foreground" Value="White" />
+            <Setter Property="Control.Background" Value="Black" />
+        </Style>
+
+        <Style TargetType="RichTextBox">
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="False" />
+                        <Condition Property="IsFocused"   Value="False" />
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="Background" Value="DarkGray" />
+                        <Setter Property="Foreground" Value="Gray" />
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+
+                <EventTrigger RoutedEvent="KeyDown">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Duration="0:0:3" Storyboard.TargetProperty="Foreground.Color" To="White"  />
+                                <ColorAnimation Duration="0:0:1" Storyboard.TargetProperty="Foreground.Color" To="Black"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8" />
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+            <RowDefinition Height="23" />
+        </Grid.RowDefinitions>
+        <RichTextBox x:Name="textField" SpellCheck.IsEnabled="True" KeyUp="textField_KeyPress" 
+                     Grid.Row="3" AllowDrop="True" Block.LineStackingStrategy="BlockLineHeight" Margin="0,0,-1,0" Style="{DynamicResource TextBlockStyle}"/>
+
+        <Menu Height="20" VerticalAlignment="Top" Background="DarkGray" Grid.RowSpan="2">
+            <MenuItem Header="{DynamicResource _file}" Height="20" Width="53"  Style="{DynamicResource MenuStyle}">
+                <MenuItem x:Name="Create" Header="{DynamicResource _create}" Click="Create_Click" Height="20" Margin="0,0,0.2,0"/>
+                <MenuItem x:Name="Open"   Header="{DynamicResource _open}"   Click="Open_Click"   Height="20" Margin="0,0,0.2,0"/>
+                <MenuItem x:Name="Save"   Header="{DynamicResource _save}"   Click="Save_Click"   Height="22" Margin="0,0,0.2,0"/>
+                <MenuItem x:Name="Print"  Header="{DynamicResource _print}"  Click="Print_Click"  Height="22" Margin="0,0,0.2,0"/>
+                <MenuItem x:Name="Close"  Header="{DynamicResource _close}"  Click="Close_Click"  Height="22" Margin="0,0,0.2,0"/>
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource _insert}" Height="20" Width="67" Style="{DynamicResource MenuStyle}">
+                <MenuItem x:Name="Undo"  Header="{DynamicResource _undo}"  Click="Undo_Click"  HorizontalAlignment="Left" Height="20" Width="139" />
+                <MenuItem x:Name="Cut"   Header="{DynamicResource _cut}"   Click="Cut_Click"   HorizontalAlignment="Left" Height="20" Width="139" />
+                <MenuItem x:Name="Copy"  Header="{DynamicResource _copy}"  Click="Copy_Click"  HorizontalAlignment="Left" Height="20" Width="153" Margin="0,0,-13.8,0"/>
+                <MenuItem x:Name="Paste" Header="{DynamicResource _paste}" Click="Paste_Click" HorizontalAlignment="Left" Height="21" Width="138" />
+                <MenuItem x:Name="Time"  Header="{DynamicResource _time}"  Click="Time_Click"  HorizontalAlignment="Left" Height="22" />
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource _text}" Height="20" Width="53" Style="{DynamicResource MenuStyle}">
+                <MenuItem Header="{DynamicResource _bold}"         Command="EditingCommands.ToggleBold"      HorizontalAlignment="Left" Height="20" Width="139" />
+                <MenuItem Header="{DynamicResource _italic}"       Command="EditingCommands.ToggleItalic"    HorizontalAlignment="Left" Height="22" Width="139" />
+                <MenuItem Header="{DynamicResource _underline}"    Command="EditingCommands.ToggleUnderline" HorizontalAlignment="Left" Height="22" Width="139" />
+            </MenuItem>
+            <ComboBox x:Name="last_docs" Width="120" SelectionChanged="last_docs_SelectionChanged"/>
+        </Menu>
+
+        <ToolBarTray Grid.Row="2" Background="#353535">
+            <ToolBar Height="29" Margin="0,0,0.4,-0.2" VerticalAlignment="Top" >
+                <Button ToolTip="Open" Width="23" Click="Open_Click" VerticalAlignment="Bottom" Margin="0,0,0,1" Height="23">
+                    <Image Source="folder.png"></Image>
+                </Button>
+                <Button ToolTip="Save" Width="25" Click="Save_Click" Margin="0,0,0,-1" VerticalAlignment="Top" Height="25">
+                    <Image Source="save.png"></Image>
+                </Button>
+                <Button ToolTip="Print" Width="26" Click="Print_Click" VerticalAlignment="Bottom" Height="23" Margin="0,0,0,1">
+                    <Image Source="print.png"></Image>
+                </Button>
+                <Button ToolTip="Undo" Width="28" Click="Undo_Click" VerticalAlignment="Bottom" Height="24">
+                    <Image Source="undo.png"></Image>
+                </Button>
+                <Button ToolTip="Redo" Width="32" Click="Redo_Click" Margin="0,0,0,-1" VerticalAlignment="Bottom" Height="25">
+                    <Image Source="redo.png"></Image>
+                </Button>
+            </ToolBar>
+
+            <ToolBar FontFamily="Times New Roman" FontSize="16" Height="29" Margin="-0.4,0,0,-0.2" VerticalAlignment="Top">
+                <ToggleButton FontWeight="Bold" ToolTip="Bold" Command="EditingCommands.ToggleBold">
+                    <Bold>B</Bold>
+                </ToggleButton>
+
+                <ToggleButton FontStyle="Italic" ToolTip="Italic" Command="EditingCommands.ToggleItalic" xml:space="preserve" Width="18">
+                    <Italic>I</Italic>
+                </ToggleButton>
+
+                <ToggleButton ToolTip="Underlined" Command="EditingCommands.ToggleUnderline">
+                    <Underline>U</Underline>
+                </ToggleButton>
+            </ToolBar>
+
+            <ToolBar Margin="0,0,-15,0">
+                <ComboBox x:Name="fonts"                          
+                          MinWidth="100"
+                          ItemsSource="{x:Static Fonts.SystemFontFamilies}" 
+                          ToolTip="Font Family"      SelectionChanged="fonts_SelectionChanged"/>
+                <ComboBox x:Name="fontSize"
+                          MinWidth="90"
+                          ToolTip="Font size">
+                    <TextBlock x:Name="sizeText"/>
+                    <Slider x:Name="sizeSlide" ValueChanged="fontSize_SelectionChanged" Width="80" Minimum="10" Maximum="100"/>
+                </ComboBox>
+                <ComboBox x:Name="fontColor"
+                          MinWidth="90"
+                          ToolTip="Color"            SelectionChanged="fontColor_SelectionChanged"/>
+                <ComboBox x:Name="backgroundColor"
+                          MinWidth="90" 
+                          ToolTip="Background color" SelectionChanged="backgroundColor_SelectionChanged"/>
+            </ToolBar>
+        </ToolBarTray>
+
+        <ComboBox x:Name="lang" Margin="643,5,5,5" Grid.Row="2" SelectionChanged="LANG_change">
+            <TextBlock Text="EN"/>
+            <TextBlock Text="RU"/>
+        </ComboBox>
+
+        <Label x:Name="infoLabel" Content="" Height="25" Margin="0,0,0,-2" Grid.Row="4" 
+               VerticalAlignment="Top" Background="#353535"/>
+
+        <CheckBox x:Name="theme" Checked="ChangeTheme" Unchecked="ChangeTheme" Margin="663,3,10,2" Grid.Row="4"/>
+
+        <control:UserControl1 Margin="253,309,72,-56" Grid.Row="3" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

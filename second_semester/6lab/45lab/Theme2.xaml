@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:_45lab">
+    <Style x:Key="TextBlockStyle" TargetType="RichTextBox">
+        <Setter Property="Background" Value="Gray" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style x:Key="MenuStyle" TargetType="MenuItem">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+</ResourceDictionary>
