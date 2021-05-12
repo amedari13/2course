@@ -1,0 +1,28 @@
+﻿<Window x:Class="_8lab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_8lab"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="814">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Connect"      HorizontalAlignment="Left" Margin="6,99,0,0"    VerticalAlignment="Top" Width="114" Click="Connect"    Height="26" />
+        <Button Content="Disconnect"   HorizontalAlignment="Left" Margin="6,132,0,0"   VerticalAlignment="Top" Width="114" Click="Disconnect" Height="26" />
+        <Button Content="View content" HorizontalAlignment="Left" Margin="6,165,0,0"   VerticalAlignment="Top" Width="114" Click="View_db"    Height="27" />
+        <Button Content="Add"          HorizontalAlignment="Left" Margin="672,90,0,0"  VerticalAlignment="Top" Width="114" Click="Add_db"     Height="26" />
+        <Button Content="Edit"         HorizontalAlignment="Left" Margin="672,123,0,0" VerticalAlignment="Top" Width="114" Click="Edit_db"    Height="26" />
+        <Button Content="Delete"       HorizontalAlignment="Left" Margin="672,156,0,0" VerticalAlignment="Top" Width="114" Click="Delete_db"  Height="26" />
+        <Button Content="Sort"         HorizontalAlignment="Left" Margin="672,188,0,0" VerticalAlignment="Top" Width="114" Click="Sort_db"    Height="27" />
+        <Button Content="-->"          HorizontalAlignment="Left" Margin="65,368,0,0"  VerticalAlignment="Top" Width="51"  Click="Redo"       Height="36" />
+        <Button Content="&lt;--"       HorizontalAlignment="Left" Margin="7,368,0,0"   VerticalAlignment="Top" Width="51"  Click="Undo"       Height="36" />
+
+        <TextBox FontSize="20"         HorizontalAlignment="Left" Margin="126,7,0,0"   VerticalAlignment="Top" Width="537" Name="content"     Height="400" IsReadOnly="True" />
+        <Image Name="img" Height="140" HorizontalAlignment="Left" Margin="530,249,0,0" VerticalAlignment="Top" Width="106" />
+
+    </Grid>
+</Window>

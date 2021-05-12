@@ -188,11 +188,11 @@ namespace _45lab
             
             if ((bool)theme.IsChecked)
             {
-                dictTh.Source = new Uri("Theme2.xaml", UriKind.Relative);
+                dictTh.Source = new Uri("Theme1.xaml", UriKind.Relative);
             }
             else
             { 
-                dictTh.Source = new Uri("Theme1.xaml", UriKind.Relative);
+                dictTh.Source = new Uri("Theme2.xaml", UriKind.Relative);
             }
             Application.Current.Resources.Clear();
             Application.Current.Resources.MergedDictionaries.Add(dictTh);

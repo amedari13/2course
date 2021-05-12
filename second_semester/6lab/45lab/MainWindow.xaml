@@ -139,7 +139,7 @@
                VerticalAlignment="Top" Background="#353535"/>
 
         <CheckBox x:Name="theme" Checked="ChangeTheme" Unchecked="ChangeTheme" Margin="663,3,10,2" Grid.Row="4"/>
-
-        <control:UserControl1 Margin="253,309,72,-56" Grid.Row="3" Grid.RowSpan="2"/>
+        
+        <control:UserControl1 Margin="264,314,61,-61" Grid.Row="3" Grid.RowSpan="2"/>
     </Grid>
 </Window>
